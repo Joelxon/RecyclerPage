@@ -25,6 +25,7 @@ class ProfileAdapter(val profiles: List<ProfileModel>):
 
     override fun onBindViewHolder(holder: ProfileViewHolder, position: Int) {
         val profile = profiles.get(position)
+        holder.bind(profile)
     }
 
     override fun getItemCount(): Int {
