@@ -3,7 +3,7 @@ package com.joelson.recyclerpage
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ProfileDetails : AppCompatActivity() {
+class ProfileDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile_details)
